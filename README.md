@@ -6,14 +6,8 @@ This project demonstrates how to set up a FastAPI application using SQLModel wit
 
 ```
 api/
-├── alembic/
-│   ├── env.py
-│   ├── script.py.mako
-│   └── versions/
-├── app/
-│   ├── __init__.py
-│   ├── main.py
-│   └── models.py
+├── __init__.py
+├── models.py
 ├── migration_service/
 │   ├── Dockerfile
 │   ├── alembic.ini
